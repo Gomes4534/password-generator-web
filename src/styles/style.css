@@ -16,4 +16,51 @@ main {
     display: flex;
     flex-direction: column;
     gap: 12px;
+
+    background-color: #3f3c3c;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.length {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.length input {
+    width: 50px;
+}
+
+.password {
+    
+    padding: 12px 12px;
+    border: 1px solid #22c730;
+    border-radius: 10px;
+}
+
+button {
+    border: 1px solid #22c730;
+    background-color: transparent;
+    color: #22c730;
+    width: 100%;
+    padding: 10px ;
+}
+
+button:hover {
+    background-color: #22c730;
+    color: #252525;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
